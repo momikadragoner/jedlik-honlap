@@ -1,0 +1,15 @@
+.img-logo{
+    position:absolute;
+    /* top: 3rem;
+    left: ; */
+    max-height: 10rem;
+}
+.video{
+    height: 30rem;
+}
+.fs-large{
+    font-size: 3rem;
+}
+.bg-transparent{
+    background-color: rgba(0, 0, 255, 0.774);
+}
