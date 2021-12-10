@@ -13,3 +13,8 @@
 .bg-transparent{
     background-color: rgba(0, 0, 255, 0.774);
 }
+.menu-item{
+    font-variant: small-caps;
+    color: #4056a1;
+    font-size: 1.5rem;
+}
