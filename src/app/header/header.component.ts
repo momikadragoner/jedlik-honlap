@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faMapMarkerAlt, faEnvelope, faPhoneAlt, faChevronDown, faTh } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faEnvelope, faPhoneAlt, faChevronDown, faTh, faChalkboard, faInfoCircle, faEnvelopeOpenText, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +12,11 @@ export class HeaderComponent implements OnInit {
   faEnvelope = faEnvelope;
   faPhoneAlt = faPhoneAlt;
   faChevronDown = faChevronDown;
-  faTh = faTh
+  faTh = faTh;
+  faChalkboard = faChalkboard;
+  faInfoCircle = faInfoCircle;
+  faEnvelopeOpenText = faEnvelopeOpenText;
+  faCloudDownloadAlt = faCloudDownloadAlt;
 
   constructor() { }
 

@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-transparent-blue{
+    background-color: rgba(64, 86, 161, 0.6);
+}
+.text-blue{
+    color: #4056a1;
+}
+.bg-yellow{
+    background-color: rgb(239, 226, 186);
+}

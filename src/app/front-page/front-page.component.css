@@ -1,0 +1,36 @@
+.bg-gray{
+    background-color: rgb(244, 244, 242);
+    color: rgb(44, 46, 54);
+    border-left: 1px solid #dee2e6 !important;
+}
+.advent{
+    max-width: 95%;
+}
+.btn-blue{
+    color: white;
+    background-color: #4056a1;
+    border-color: #4056a1;
+}
+.btn-yellow{
+    color: #212529;
+    background-color: #d79922;
+    border-color: #d79922;
+}
+.bg-img{
+    background-image: url("../../assets/bg2.png");
+    height: 25rem;
+    position: relative;
+}
+.img-text{
+    font-size: 1.3rem;
+    position:absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.logos{
+    max-width: 8rem;
+}
