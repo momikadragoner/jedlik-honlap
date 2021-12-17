@@ -1,0 +1,20 @@
+.car-body{
+    position: relative;
+}
+.arrow-left{
+    color: black;
+    position: absolute;
+    top: 48%;
+    left: 0;
+    font-size: 2rem;
+}
+.arrow-right{
+    color: black;
+    position: absolute;
+    top: 48%;
+    right: 0;
+    font-size: 2rem;
+}
+.img-car{
+    max-height: 21rem;
+}

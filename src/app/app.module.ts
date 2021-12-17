@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { NewsPanelComponent } from './front-page/news-panel/news-panel.component';
+import { CarouselComponent } from './front-page/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NewsPanelComponent } from './front-page/news-panel/news-panel.component
     HeaderComponent,
     FooterComponent,
     FrontPageComponent,
-    NewsPanelComponent
+    NewsPanelComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,12 @@ export class FrontPageComponent implements OnInit {
     {src:"https://jedlik.eu/images/hirek/img/matek.png", title:"Matematika kapcsolatépítő csapatverseny - eredmények"},
   ]
 
+  pictures:string[] = [
+    'https://jedlik.eu/images/kepzeseink/gepesztechnikus_v1.png',
+    'https://jedlik.eu/images/kepzeseink/gepgyartastechnologiai_technikus_v1.png',
+    'https://jedlik.eu/images/kepzeseink/altalanos_post_v2.png'
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
