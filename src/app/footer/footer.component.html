@@ -29,12 +29,16 @@
             <div class="col-12 col-md-5 d-flex justify-content-end">
                 <form class="form-search" role="search">
                     <div class="input-group">
-                        <input type="text" name="search" id="search" class="form-control m-1" size="25" value=""
-                            placeholder="Keresés...">
-                        <button class="m-1 btn btn-blue" type="submit" title="Indítás">
-                            <fa-icon [icon]="faSearch"></fa-icon>
-                            Keresés
-                        </button>
+                        <div class="mx-1">
+                            <input type="text" name="search" id="search" class="form-control m-1" size="25" value=""
+                                placeholder="Keresés...">
+                        </div>
+                        <div class="mx-1">
+                            <button class="m-1 btn btn-blue" type="submit" title="Indítás">
+                                <fa-icon [icon]="faSearch"></fa-icon>
+                                Keresés
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>

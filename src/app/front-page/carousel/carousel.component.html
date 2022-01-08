@@ -1,7 +1,7 @@
 <div class="car-body">
     <div *ngFor="let src of pictures; let i = index">
         <div *ngIf="selectedImgIndex == i">
-            <img src="{{src}}" class="img-car">
+            <img src="{{src}}" class="img-car img-fluid">
         </div>
     </div>
     <a href="#" (click)="nextImg(-1, $event)" class="arrow-left ms-3">
