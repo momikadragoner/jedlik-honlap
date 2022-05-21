@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Console Application Core 3.1
+
+Install-Package Microsoft.EntityFrameworkCore -Version 5.0.13
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 5.0.13
+Install-Package Pomelo.EntityFrameworkCore.MySql -Version 5.0.3
+Install-Package Pomelo.EntityFrameworkCore.MySql.Design -Version 1.1.2
+Install-Package Newtonsoft.Json -Version 13.0.1
+
+Scaffold-DbContext "Server=localhost;User=root;Password=;Database=ingatlan" "Pomelo.EntityFrameworkCore.MySql" -OutputDir Models
+
+
+
+        public static List<Ad> LoadFromJson(string file)
+        {
+            return JsonConvert.DeserializeObject<List<Ad>>(File.ReadAllText(file));
+        }
